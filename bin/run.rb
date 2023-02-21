@@ -22,5 +22,5 @@ Magazine.all.each do |magazine|
 end
 puts "\nContributing authors for #{magazine.name}:"
 magazine.contributing_authors.each do |author|
-  puts "- #{author.name}"
+  puts " #{author.name}"
 end
