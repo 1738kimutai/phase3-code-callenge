@@ -30,9 +30,9 @@ class Article
   end
   
   # Creating a sample article object
-  author = Author.new("Wakili Timam")
-  magazine = Magazine.new("Motorcycle Diary")
-  article = Article.new(author, magazine, "New motorbikes")
+  author = Author.new("Team Lap")
+  magazine = Magazine.new("Car Showroom")
+  article = Article.new(author, magazine, "New cars")
   
   # Outputting the author and magazine names
   puts article.author.name # should output "Wakili Timam"

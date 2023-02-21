@@ -24,6 +24,6 @@ class Magazine
     end
   end
 
-  magazine = Magazine.new("motorcycle diary", "motorcycle")
+  magazine = Magazine.new("car showroom", " New cars")
   puts magazine.name # should output "motorcycle diary"
   puts magazine.category
