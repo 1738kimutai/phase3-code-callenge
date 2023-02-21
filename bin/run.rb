@@ -24,3 +24,4 @@ puts "\nContributing authors for #{magazine.name}:"
 magazine.contributing_authors.each do |author|
   puts " #{author.name}"
 end
+binding.pry
